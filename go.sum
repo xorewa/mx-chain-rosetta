@@ -183,12 +183,12 @@ github.com/xorewa/mx-chain-crypto-go v0.0.0-20260630162109-4c1e9574b7d4 h1:r8mHw
 github.com/xorewa/mx-chain-crypto-go v0.0.0-20260630162109-4c1e9574b7d4/go.mod h1:B3Nu3ff02aV1XvCzmHzxSxQnaaFpukUwFqup6JCtCvs=
 github.com/xorewa/mx-chain-es-indexer-go v0.0.0-20260707075721-ec80f3394674 h1:XfUK+us7KmpmOVQYWVVtQji6ivrGzQ1XiyDji1SXeTg=
 github.com/xorewa/mx-chain-es-indexer-go v0.0.0-20260707075721-ec80f3394674/go.mod h1:w9WltTI5uwPjKSj3gCQO4J6VbbZ7OgHctdcNFgqAe/c=
-github.com/xorewa/mx-chain-go v0.0.0-20260707074103-84cbfb7a5c9a h1:cJal0VjL3a9D88me/Fyo0Ma2lPQAaUEz6fdndD9rSc4=
-github.com/xorewa/mx-chain-go v0.0.0-20260707074103-84cbfb7a5c9a/go.mod h1:GOCsaC8BOXYo4DV1bf1OLdGhG+CjuvZG8QpKpZQjveU=
+github.com/xorewa/mx-chain-go v0.0.0-20260707084605-618c37a33172 h1:Ct2jh61sI38Wpj6ExFQ7nC+eRY1hUVsRgDfkSyTbRfQ=
+github.com/xorewa/mx-chain-go v0.0.0-20260707084605-618c37a33172/go.mod h1:4CThQxe62cdqAJTPu/Gy4dT53R16IyUmFyXuOXKtntI=
 github.com/xorewa/mx-chain-logger-go v0.0.0-20260630161826-04c5818227ed h1:V5EqfNqAzwcdgPxpXkC4C0sIzT6FttNRY3zABiQsghc=
 github.com/xorewa/mx-chain-logger-go v0.0.0-20260630161826-04c5818227ed/go.mod h1:tYYGwoIUG2TVmhyXI4Zp9s3VWzxqEUgBhjXAMx3vzVc=
-github.com/xorewa/mx-chain-proxy-go v0.0.0-20260707075718-db347052ae51 h1:S6vHLfh/+38Xc5Ce5f4HD9aodnlr/jysfZnoo03KL8I=
-github.com/xorewa/mx-chain-proxy-go v0.0.0-20260707075718-db347052ae51/go.mod h1:sIO4NO3+NSxfB60lje1mE9jgb2ilvbFC5xAUXaG+nLA=
+github.com/xorewa/mx-chain-proxy-go v0.0.0-20260707084605-ccbce6c50eb4 h1:7+KLijwRwVm2v7rhBDVf5aQScQbH7mxYhDi9jUxncxI=
+github.com/xorewa/mx-chain-proxy-go v0.0.0-20260707084605-ccbce6c50eb4/go.mod h1:0+D+LWCloEtaIufFU9AwJA+B3kTRCKauFgY1DRDzmEs=
 github.com/xorewa/mx-chain-storage-go v0.0.0-20260630162005-120dc6b184cb h1:HKsYBfc9dg4PJAvbTFCJdGEK7HhmyQSn+XTjEU4NGho=
 github.com/xorewa/mx-chain-storage-go v0.0.0-20260630162005-120dc6b184cb/go.mod h1:3pXUVHHeC8Ga8JwVKECW+6g8+65OI+PALQccQIe+qeE=
 github.com/xorewa/mx-chain-vm-common-go v0.0.0-20260707072202-5a2360b7250e h1:ErUMtoUbrWWBMoEMk+1+ucCSTOof+quCyYiw555gltA=
