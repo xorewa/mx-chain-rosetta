@@ -173,8 +173,6 @@ func TestNetworkProvider_GetLatestBlockNonce(t *testing.T) {
 	require.NotNil(t, provider)
 
 	t.Run("when HighestFinalNonce <= 2 (node didn't start syncing)", func(t *testing.T) {
-		t.Parallel()
-
 		observerFacade.CallGetRestEndPointCalled = func(baseUrl, path string, value interface{}) (int, error) {
 			if path == "/node/status" {
 				value.(*resources.NodeStatusApiResponse).Data = resources.NodeStatusApiResponsePayload{
@@ -195,8 +193,6 @@ func TestNetworkProvider_GetLatestBlockNonce(t *testing.T) {
 	})
 
 	t.Run("when HighestFinalNonce > 2", func(t *testing.T) {
-		t.Parallel()
-
 		observerFacade.CallGetRestEndPointCalled = func(baseUrl, path string, value interface{}) (int, error) {
 			if path == "/node/status" {
 				value.(*resources.NodeStatusApiResponse).Data = resources.NodeStatusApiResponsePayload{
@@ -216,8 +212,6 @@ func TestNetworkProvider_GetLatestBlockNonce(t *testing.T) {
 		require.Equal(t, uint64(40), nonce)
 	})
 	t.Run("when HighestFinalNonce is greater than LastExecutedNonce", func(t *testing.T) {
-		t.Parallel()
-
 		observerFacade.CallGetRestEndPointCalled = func(baseUrl, path string, value interface{}) (int, error) {
 			if path == "/node/status" {
 				value.(*resources.NodeStatusApiResponse).Data = resources.NodeStatusApiResponsePayload{
@@ -239,8 +233,6 @@ func TestNetworkProvider_GetLatestBlockNonce(t *testing.T) {
 	})
 
 	t.Run("when HighestFinalNonce is greater than LastExecutedNonce, but LastExecutedNonce is zero", func(t *testing.T) {
-		t.Parallel()
-
 		observerFacade.CallGetRestEndPointCalled = func(baseUrl, path string, value interface{}) (int, error) {
 			if path == "/node/status" {
 				value.(*resources.NodeStatusApiResponse).Data = resources.NodeStatusApiResponsePayload{
@@ -262,8 +254,6 @@ func TestNetworkProvider_GetLatestBlockNonce(t *testing.T) {
 	})
 
 	t.Run("when LastExecutedNonce is greater than or equal to HighestFinalNonce minus two", func(t *testing.T) {
-		t.Parallel()
-
 		observerFacade.CallGetRestEndPointCalled = func(baseUrl, path string, value interface{}) (int, error) {
 			if path == "/node/status" {
 				value.(*resources.NodeStatusApiResponse).Data = resources.NodeStatusApiResponsePayload{
