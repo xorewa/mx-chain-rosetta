@@ -1,6 +1,6 @@
 module github.com/multiversx/mx-chain-rosetta
 
-go 1.26
+go 1.26.2
 
 require (
 	github.com/coinbase/rosetta-sdk-go v0.8.3
