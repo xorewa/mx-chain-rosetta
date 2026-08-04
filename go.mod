@@ -78,6 +78,6 @@ replace github.com/multiversx/mx-chain-es-indexer-go => github.com/xorewa/mx-cha
 
 replace github.com/multiversx/mx-chain-proxy-go => github.com/xorewa/mx-chain-proxy-go v0.0.0-20260804115208-257877400603
 
-replace github.com/multiversx/mx-chain-go => github.com/xorewa/mx-chain-go v0.0.0-20260804110756-155ac73e0bba
+replace github.com/multiversx/mx-chain-go => github.com/xorewa/mx-chain-go v0.0.0-20260804115311-09d256531d6d
 
 replace github.com/herumi/bls-go-binary => github.com/xorewa/bls-go-binary v0.0.0-20260731163832-566eb78d4b77
